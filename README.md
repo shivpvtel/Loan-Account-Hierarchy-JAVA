@@ -50,14 +50,15 @@ Your code in the subclasses should call methods in the super classes whenever po
 
 Use the following code in your main function to test your classes, just copy and paste it into your main method:
 
-        // Create three different loan objects, one of each type.
+        //Create three different loan objects, one of each type
+       
         CarLoan carLoan = new CarLoan(25000.00, 4.25, 72, "IRQ3458977");
-        
+        
         Address propertyAddress = new Address("321 Main Street", "State College", "PA", "16801");
         PrimaryMortgage propertyLoan = new PrimaryMortgage(250000.00, 3.1, 360, 35.12, propertyAddress);
         
         UnsecuredLoan unsecuredLoan = new UnsecuredLoan(5000.00, 10.75, 48);
-        
+        
         //Print out the load information for each loan using the toString() method.
         System.out.format("%n%s%s%s%n", carLoan, propertyLoan, unsecuredLoan);
         
