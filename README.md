@@ -63,7 +63,7 @@ Use the following code in your main function to test your classes, just copy and
 The output from your program should look like the following:
 
 run:
-
+/*
 Car Loan with:
 Principal: $25000.00
 Annual Interest Rate: 4.25%
@@ -86,3 +86,4 @@ Principal: $5000.00
 Annual Interest Rate: 10.75%
 Term of Loan in Months: 48
 Monthly Payment: $128.62
+*/
